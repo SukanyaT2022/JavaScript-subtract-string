@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <script>
+        /*
+        
+        Write a javascript code to input a string. Extract first character from string and convert to uppercase. Now extract remaining part of string starting from position2 till end and join to first character
+        
+        first=s.substring(0,1
+        
+        
+        t=first.toUpperCase()
+        
+        
+        r=s.substring(1)
+        
+        return t+r
+        
+        
+        
+        */
+
+
+        function Words(str) {
+            // step 1--we separte it and change to upper case first
+            var a = str.substring(0, 1)
+            var b = a.toUpperCase()
+            //step2
+            var c = str.substring(1)
+            return b + c
+        }
+
+        document.write(Words("phone"))
+
+
+
+    </script>
+
+
+</body>
+
+</html>
